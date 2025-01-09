@@ -4,7 +4,7 @@ const lightboxImg = document.getElementById('lightbox-img');
 
 gallaryImages.forEach(image => {
     image.addEventListener('click', () => {
-        lightbox.src = image.src;
+        lightboxImg.src = image.src;
         lightbox.classList.add('visible');
     });
 });
