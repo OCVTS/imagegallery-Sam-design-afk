@@ -11,6 +11,7 @@ header {
 }
 
 main {
+    
     min-height: 70vh;
     display: flex;
     flex-direction: column;
@@ -38,9 +39,11 @@ footer {
 #gallary-container img{
     border-radius: 5px;
     transition: transform 0.3s ease;
+    filter: grayscale(50%) contrast(80%) brightness(0.9);
 }
 
 #gallary-container img:hover{
+    filter: none;
     transform: scale(1.1);
     
 }
